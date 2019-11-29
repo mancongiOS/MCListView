@@ -1,0 +1,6 @@
+framework module MCListView {
+  umbrella header "MCListView-umbrella.h"
+
+  export *
+  module * { export * }
+}

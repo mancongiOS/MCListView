@@ -1,0 +1,20 @@
+use_frameworks!
+
+
+source 'https://github.com/CocoaPods/Specs.git'        #官方仓库地址
+#source 'http://119.3.60.230/IOS/GMJKSpecs.git'
+
+
+platform :ios, '9.0'
+target 'MCListView_Example' do
+  
+  pod 'MJRefresh',  '3.2.0'
+
+  pod 'MCListView', :path => '../'
+
+  target 'MCListView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

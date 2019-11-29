@@ -1,0 +1,27 @@
+PODS:
+  - MCListView (0.0.1):
+    - Then (~> 2.5.0)
+  - MJRefresh (3.2.0)
+  - Then (2.5.0)
+
+DEPENDENCIES:
+  - MCListView (from `../`)
+  - MJRefresh (= 3.2.0)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - MJRefresh
+    - Then
+
+EXTERNAL SOURCES:
+  MCListView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MCListView: df9c0c7ec72a4149ce15a155f33ac716e3767221
+  MJRefresh: ed450d6eb9d3346a2cb033ab7eb6de090aeef437
+  Then: 0157115e883545c77967b452fe74a1d25fb796e1
+
+PODFILE CHECKSUM: 9788d6de1e6187f1a83a12aa338f538d7b362a43
+
+COCOAPODS: 1.8.4
