@@ -1,8 +1,8 @@
 {
   "name": "MCListView",
-  "version": "0.0.1",
-  "summary": "TableView&CollectionView的复用和空页面的处理",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "0.0.2",
+  "summary": "Cell的复用和列表空页面的处理",
+  "description": "列表页面的复用和对空页面的封装",
   "homepage": "https://github.com/mancongiOS",
   "license": {
     "type": "MIT",
@@ -11,23 +11,18 @@
   "authors": {
     "Mccc": "562863544@qq.com"
   },
-  "source": {
-    "git": "https://github.com/mancongiOS/MCListView.git",
-    "tag": "0.0.1"
-  },
-  "source_files": "MCListView/Classes/**/*",
   "platforms": {
     "ios": "8.0"
   },
   "swift_versions": "5.0",
+  "source": {
+    "git": "https://github.com/mancongiOS/MCListView.git",
+    "tag": "0.0.2"
+  },
+  "source_files": "MCListView/Classes/**/*",
   "resource_bundles": {
     "MCListViewBundle": [
       "MCListView/Assets/*.png"
-    ]
-  },
-  "dependencies": {
-    "Then": [
-      "~> 2.5.0"
     ]
   },
   "swift_version": "5.0"

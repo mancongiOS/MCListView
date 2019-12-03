@@ -8,7 +8,7 @@
 import UIKit
 
 
-public class MCEmptyView: UIView {
+open class MCEmptyView: UIView {
     
     /// 按钮事件回调
     public var eventClosure: (() -> Void)?
@@ -33,7 +33,7 @@ public class MCEmptyView: UIView {
         self.addSubview(eventButton)
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     
@@ -76,6 +76,7 @@ public class MCEmptyView: UIView {
         label.textColor = UIColor.darkGray
         label.textAlignment = .center
         label.text = "暂无数据"
+        
         return label
     }()
     
@@ -85,11 +86,13 @@ public class MCEmptyView: UIView {
         label.textColor = UIColor.gray
         label.textAlignment = .center
         label.text = "暂时无数据，再等等吧"
+        label.isHidden = true
         return label
     }()
     
     public lazy var eventButton: UIButton = {
         let button = UIButton.init(type: UIButton.ButtonType.custom)
+        button.isHidden = true
         button.layer.cornerRadius = 5
         button.layer.masksToBounds = true
         button.layer.borderColor = UIColor.lightGray.cgColor

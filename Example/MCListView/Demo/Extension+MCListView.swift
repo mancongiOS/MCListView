@@ -42,6 +42,7 @@ extension MCTableView: MCTableViewEmptyData {
     func showNoNetwork() {
         noNotworkView.textLabel.text = "暂无网络"
         noNotworkView.eventButton.setTitle("重新加载", for: .normal)
+        noNotworkView.eventButton.isHidden = false
         noNotworkView.isHidden = false
     }
     

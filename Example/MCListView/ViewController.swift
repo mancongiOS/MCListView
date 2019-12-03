@@ -9,7 +9,6 @@
 import UIKit
 import MCListView
 import MJRefresh
-import Then
 
 class ViewController: UIViewController {
 
@@ -30,12 +29,14 @@ class ViewController: UIViewController {
     }
     
     lazy var dataArray: [String] = [
-        "关于cell复用封装方法,请查看BaseViewController类",
         "进入就展示空页面，加载处理空页面",
         "进入不展示空页面，加载处理空页面",
         "有事件处理的空页面",
+        "关于有headerView的空页面的处理",
         "处理无网络页面",
-        "CollectionView的使用和TableView的一致"
+        "CollectionView的使用和TableView的一致",
+        "CollectionView瀑布流",
+        "CollectionView居左cell",
     ]
 }
 
@@ -56,18 +57,21 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         switch indexPath.row {
-        case 1:
+        case 0:
             let vc = OneViewController()
             navigationController?.pushViewController(vc, animated: true)
             
-        case 2:
+        case 1:
             let vc = TwoViewController()
             navigationController?.pushViewController(vc, animated: true)
          
-        case 3:
+        case 2:
             let vc = ThreeViewController()
             navigationController?.pushViewController(vc, animated: true)
-
+        case 3:
+            let vc = FourViewController()
+            navigationController?.pushViewController(vc, animated: true)
+            
         case 4:
             let vc = NoNetworkViewController()
             navigationController?.pushViewController(vc, animated: true)
@@ -75,6 +79,16 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
         case 5:
             let vc = CollectionViewController()
             navigationController?.pushViewController(vc, animated: true)
+        case 6:
+            let vc = WaterfallLayoutViewController()
+            navigationController?.pushViewController(vc, animated: true)
+            
+        case 7:
+            let vc = LeftLayoutViewController()
+            navigationController?.pushViewController(vc, animated: true)
+          
+            
+            
         default:
             break
         }

@@ -8,7 +8,6 @@
 import UIKit
 
 public class MCTableView: UITableView {
-        
     
     public func mc_reloadData() {
         super.reloadData()
@@ -109,7 +108,7 @@ extension MCTableView {
         let tb = MCTableView.init(frame: .zero, style: style)
         tb.delegate = delegate as? UITableViewDelegate
         tb.dataSource = delegate as? UITableViewDataSource
-        tb.mc_register(cell)
+        tb.mc_registerCell(cell)
         
         if header != nil {
             tb.mc_registerSectionHeader(header!)
@@ -127,7 +126,7 @@ extension MCTableView {
 
 extension UITableView {
     /// 提前注册cell
-    public func mc_register<T: UITableViewCell>(_: T.Type) {
+    public func mc_registerCell<T: UITableViewCell>(_: T.Type) {
         register(T.self, forCellReuseIdentifier: getClassName(T.classForCoder()))
     }
     

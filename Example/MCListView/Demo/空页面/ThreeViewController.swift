@@ -20,7 +20,7 @@ class ThreeViewController: BaseViewController {
             
             let alert = UIAlertController.init(title: "去关注人吧", message: nil, preferredStyle: .alert)
             
-            let action = UIAlertAction.init(title: "我知道了", style: UIAlertActionStyle.cancel) { (_) in
+            let action = UIAlertAction.init(title: "我知道了", style: UIAlertAction.Style.cancel) { (_) in
                 self.getData()
             }
             

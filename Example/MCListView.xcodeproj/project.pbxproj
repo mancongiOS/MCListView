@@ -9,12 +9,17 @@
 /* Begin PBXBuildFile section */
 		425A3A512390FA6D0074CEDA /* Extension+UIScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425A3A502390FA6D0074CEDA /* Extension+UIScrollView.swift */; };
 		425A3A532390FE610074CEDA /* Extension+MCListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425A3A522390FE610074CEDA /* Extension+MCListView.swift */; };
-		425A3A562391024A0074CEDA /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425A3A552391024A0074CEDA /* BaseViewController.swift */; };
-		425A3A582391037C0074CEDA /* OneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425A3A572391037C0074CEDA /* OneViewController.swift */; };
-		425A3A5A239103830074CEDA /* TwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425A3A59239103830074CEDA /* TwoViewController.swift */; };
-		425A3A5C239103930074CEDA /* NoNetworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425A3A5B239103930074CEDA /* NoNetworkViewController.swift */; };
-		425A3A5E239112000074CEDA /* ThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425A3A5D239112000074CEDA /* ThreeViewController.swift */; };
-		425A3A602391167E0074CEDA /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425A3A5F2391167E0074CEDA /* CollectionViewController.swift */; };
+		42EFD3652396318900FBFA13 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EFD3562396318800FBFA13 /* BaseViewController.swift */; };
+		42EFD3662396318900FBFA13 /* LeftLayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EFD3582396318800FBFA13 /* LeftLayoutViewController.swift */; };
+		42EFD3672396318900FBFA13 /* WaterfallLayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EFD3592396318800FBFA13 /* WaterfallLayoutViewController.swift */; };
+		42EFD3682396318900FBFA13 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EFD35A2396318800FBFA13 /* CollectionViewController.swift */; };
+		42EFD3692396318900FBFA13 /* OneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EFD35C2396318800FBFA13 /* OneViewController.swift */; };
+		42EFD36A2396318900FBFA13 /* TwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EFD35D2396318800FBFA13 /* TwoViewController.swift */; };
+		42EFD36B2396318900FBFA13 /* ThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EFD35E2396318800FBFA13 /* ThreeViewController.swift */; };
+		42EFD36C2396318900FBFA13 /* FourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EFD3612396318800FBFA13 /* FourViewController.swift */; };
+		42EFD36D2396318900FBFA13 /* EmptyDataCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EFD3622396318800FBFA13 /* EmptyDataCell.swift */; };
+		42EFD36E2396318900FBFA13 /* NoNetworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EFD3642396318800FBFA13 /* NoNetworkViewController.swift */; };
+		42EFD370239631D900FBFA13 /* FiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EFD36F239631D900FBFA13 /* FiveViewController.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -41,12 +46,17 @@
 		175F728116766C142ACF5CE6 /* Pods-MCListView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MCListView_Tests.release.xcconfig"; path = "Target Support Files/Pods-MCListView_Tests/Pods-MCListView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		425A3A502390FA6D0074CEDA /* Extension+UIScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+UIScrollView.swift"; sourceTree = "<group>"; };
 		425A3A522390FE610074CEDA /* Extension+MCListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+MCListView.swift"; sourceTree = "<group>"; };
-		425A3A552391024A0074CEDA /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
-		425A3A572391037C0074CEDA /* OneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneViewController.swift; sourceTree = "<group>"; };
-		425A3A59239103830074CEDA /* TwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoViewController.swift; sourceTree = "<group>"; };
-		425A3A5B239103930074CEDA /* NoNetworkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoNetworkViewController.swift; sourceTree = "<group>"; };
-		425A3A5D239112000074CEDA /* ThreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeViewController.swift; sourceTree = "<group>"; };
-		425A3A5F2391167E0074CEDA /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		42EFD3562396318800FBFA13 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		42EFD3582396318800FBFA13 /* LeftLayoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftLayoutViewController.swift; sourceTree = "<group>"; };
+		42EFD3592396318800FBFA13 /* WaterfallLayoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaterfallLayoutViewController.swift; sourceTree = "<group>"; };
+		42EFD35A2396318800FBFA13 /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		42EFD35C2396318800FBFA13 /* OneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneViewController.swift; sourceTree = "<group>"; };
+		42EFD35D2396318800FBFA13 /* TwoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoViewController.swift; sourceTree = "<group>"; };
+		42EFD35E2396318800FBFA13 /* ThreeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreeViewController.swift; sourceTree = "<group>"; };
+		42EFD3612396318800FBFA13 /* FourViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourViewController.swift; sourceTree = "<group>"; };
+		42EFD3622396318800FBFA13 /* EmptyDataCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmptyDataCell.swift; sourceTree = "<group>"; };
+		42EFD3642396318800FBFA13 /* NoNetworkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoNetworkViewController.swift; sourceTree = "<group>"; };
+		42EFD36F239631D900FBFA13 /* FiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiveViewController.swift; sourceTree = "<group>"; };
 		48A170C9B47B33B95D38EE77 /* Pods-MCListView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MCListView_Example.debug.xcconfig"; path = "Target Support Files/Pods-MCListView_Example/Pods-MCListView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* MCListView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MCListView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -96,17 +106,56 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		425A3A54239102360074CEDA /* Demo */ = {
+		42EFD3552396318800FBFA13 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
-				425A3A552391024A0074CEDA /* BaseViewController.swift */,
-				425A3A572391037C0074CEDA /* OneViewController.swift */,
-				425A3A59239103830074CEDA /* TwoViewController.swift */,
-				425A3A5D239112000074CEDA /* ThreeViewController.swift */,
-				425A3A5F2391167E0074CEDA /* CollectionViewController.swift */,
-				425A3A5B239103930074CEDA /* NoNetworkViewController.swift */,
+				425A3A502390FA6D0074CEDA /* Extension+UIScrollView.swift */,
+				425A3A522390FE610074CEDA /* Extension+MCListView.swift */,
+				42EFD3562396318800FBFA13 /* BaseViewController.swift */,
+				42EFD3572396318800FBFA13 /* CollectionViewController */,
+				42EFD35B2396318800FBFA13 /* 空页面 */,
+				42EFD3632396318800FBFA13 /* 无网络的处理 */,
 			);
 			path = Demo;
+			sourceTree = "<group>";
+		};
+		42EFD3572396318800FBFA13 /* CollectionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				42EFD3582396318800FBFA13 /* LeftLayoutViewController.swift */,
+				42EFD3592396318800FBFA13 /* WaterfallLayoutViewController.swift */,
+				42EFD35A2396318800FBFA13 /* CollectionViewController.swift */,
+			);
+			path = CollectionViewController;
+			sourceTree = "<group>";
+		};
+		42EFD35B2396318800FBFA13 /* 空页面 */ = {
+			isa = PBXGroup;
+			children = (
+				42EFD35C2396318800FBFA13 /* OneViewController.swift */,
+				42EFD35D2396318800FBFA13 /* TwoViewController.swift */,
+				42EFD35E2396318800FBFA13 /* ThreeViewController.swift */,
+				42EFD35F2396318800FBFA13 /* 有Header的空数据处理 */,
+				42EFD36F239631D900FBFA13 /* FiveViewController.swift */,
+			);
+			path = "空页面";
+			sourceTree = "<group>";
+		};
+		42EFD35F2396318800FBFA13 /* 有Header的空数据处理 */ = {
+			isa = PBXGroup;
+			children = (
+				42EFD3612396318800FBFA13 /* FourViewController.swift */,
+				42EFD3622396318800FBFA13 /* EmptyDataCell.swift */,
+			);
+			path = "有Header的空数据处理";
+			sourceTree = "<group>";
+		};
+		42EFD3632396318800FBFA13 /* 无网络的处理 */ = {
+			isa = PBXGroup;
+			children = (
+				42EFD3642396318800FBFA13 /* NoNetworkViewController.swift */,
+			);
+			path = "无网络的处理";
 			sourceTree = "<group>";
 		};
 		607FACC71AFB9204008FA782 = {
@@ -133,9 +182,7 @@
 		607FACD21AFB9204008FA782 /* Example for MCListView */ = {
 			isa = PBXGroup;
 			children = (
-				425A3A54239102360074CEDA /* Demo */,
-				425A3A522390FE610074CEDA /* Extension+MCListView.swift */,
-				425A3A502390FA6D0074CEDA /* Extension+UIScrollView.swift */,
+				42EFD3552396318800FBFA13 /* Demo */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -239,16 +286,16 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 1100;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
+						LastSwiftMigration = 1100;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
+						LastSwiftMigration = 1100;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
@@ -303,13 +350,11 @@
 				"${PODS_ROOT}/Target Support Files/Pods-MCListView_Example/Pods-MCListView_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/MCListView/MCListView.framework",
 				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
-				"${BUILT_PRODUCTS_DIR}/Then/Then.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MCListView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Then.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -367,15 +412,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				425A3A562391024A0074CEDA /* BaseViewController.swift in Sources */,
+				42EFD3692396318900FBFA13 /* OneViewController.swift in Sources */,
+				42EFD36D2396318900FBFA13 /* EmptyDataCell.swift in Sources */,
+				42EFD3672396318900FBFA13 /* WaterfallLayoutViewController.swift in Sources */,
+				42EFD36C2396318900FBFA13 /* FourViewController.swift in Sources */,
+				42EFD36E2396318900FBFA13 /* NoNetworkViewController.swift in Sources */,
+				42EFD36B2396318900FBFA13 /* ThreeViewController.swift in Sources */,
+				42EFD3652396318900FBFA13 /* BaseViewController.swift in Sources */,
+				42EFD3662396318900FBFA13 /* LeftLayoutViewController.swift in Sources */,
 				425A3A532390FE610074CEDA /* Extension+MCListView.swift in Sources */,
+				42EFD36A2396318900FBFA13 /* TwoViewController.swift in Sources */,
+				42EFD370239631D900FBFA13 /* FiveViewController.swift in Sources */,
+				42EFD3682396318900FBFA13 /* CollectionViewController.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
-				425A3A582391037C0074CEDA /* OneViewController.swift in Sources */,
-				425A3A602391167E0074CEDA /* CollectionViewController.swift in Sources */,
-				425A3A5A239103830074CEDA /* TwoViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
-				425A3A5E239112000074CEDA /* ThreeViewController.swift in Sources */,
-				425A3A5C239103930074CEDA /* NoNetworkViewController.swift in Sources */,
 				425A3A512390FA6D0074CEDA /* Extension+UIScrollView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -422,6 +472,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -430,12 +481,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -475,6 +528,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -483,12 +537,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -528,7 +584,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -543,7 +599,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -564,7 +620,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MCListView_Example.app/MCListView_Example";
 			};
 			name = Debug;
@@ -582,7 +638,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MCListView_Example.app/MCListView_Example";
 			};
 			name = Release;

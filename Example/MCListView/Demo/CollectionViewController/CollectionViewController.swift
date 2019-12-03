@@ -19,7 +19,7 @@ class CollectionViewController: UIViewController {
         
         view.addSubview(collectionView)
         
-        navigationItem.rightBarButtonItem = UIBarButtonItem.init(title: "清空数据", style: UIBarButtonItemStyle.done, target: self, action: #selector(cleanDataEvent))
+        navigationItem.rightBarButtonItem = UIBarButtonItem.init(title: "清空数据", style: UIBarButtonItem.Style.done, target: self, action: #selector(cleanDataEvent))
                 
         collectionView.deHeader { [weak self] in
             self?.numberCount = 1
